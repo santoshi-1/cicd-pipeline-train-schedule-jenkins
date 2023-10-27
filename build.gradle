@@ -25,7 +25,7 @@ task zip(type: Zip) {
 		include "views/**"
 	}
 	into("dist")
-	archiveFileName = 'trainSchedule.zip'
+	archiveFile = 'trainSchedule.zip'
 	
 	//baseName "trainSchedule"
 }
