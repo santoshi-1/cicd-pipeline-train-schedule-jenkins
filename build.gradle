@@ -25,8 +25,9 @@ task zip(type: Zip) {
 		include "views/**"
 	}
 	into("dist")
-	archiveFile = 'trainSchedule.zip'
-	
+	//archiveFile = 'trainSchedule.zip'
+	 //destinationDirectory = layout.buildDirectory.dir("libs")
+   	baseName = 'trainSchedule'
 	//baseName "trainSchedule"
 }
 
